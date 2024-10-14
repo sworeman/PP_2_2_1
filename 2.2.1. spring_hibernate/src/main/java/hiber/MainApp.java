@@ -25,7 +25,7 @@ public class MainApp {
       User user3 = new User("User3", "Lastname3", "user3@mail.ru", car3);
       User user4 = new User("User4", "Lastname4", "user4@mail.ru", car4);
 
-      for (User user : userService.listUsers()) {
+     /* for (User user : userService.listUsers()) {
          System.out.println("Id = " + user.getId());
          System.out.println("First Name = " + user.getFirstName());
          System.out.println("Last Name = " + user.getLastName());
@@ -36,7 +36,7 @@ public class MainApp {
          } else {
             System.out.println("Car is not assigned!");
          }
-      }
+      }*/
       userService.add(user1);
       userService.add(user2);
       userService.add(user3);
