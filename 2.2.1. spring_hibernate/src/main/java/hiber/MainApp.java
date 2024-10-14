@@ -34,7 +34,7 @@ public class MainApp {
             System.out.println("Car = " + user.getCar().getModel());
             System.out.println("Car = " + user.getCar().getSeries());
          } else {
-            System.out.println("Car is not assigned!");
+            System.out.println("а где");
          }
       }*/
       userService.add(user1);
