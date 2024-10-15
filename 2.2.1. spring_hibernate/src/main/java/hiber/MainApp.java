@@ -51,6 +51,8 @@ public class MainApp {
          System.out.println("Car = "+user.getCar().getModel());
          System.out.println("Car = "+user.getCar().getSeries());
       }
+      User foundUser1 = userService.getUserByCar("Car1", 1);
+      System.out.println("Found User: " + foundUser1.getFirstName());
 
       context.close();
    }
